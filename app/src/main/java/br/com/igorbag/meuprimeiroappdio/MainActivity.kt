@@ -8,6 +8,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val message = getString(R.string.welcome_message)
+
         //O desafio sera criar uma valor dentro do string.xml
         // E trocar o texto do xml e tornar internacional (Ingles, Espanhol, etc...)
     }
